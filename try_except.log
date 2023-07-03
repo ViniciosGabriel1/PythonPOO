@@ -93,3 +93,15 @@
 2023-07-02 20:08:27,623 - INFO - Saldo depositado 12.0
 2023-07-02 20:08:29,566 - INFO - Saldo depositado 2.0
 2023-07-02 20:08:29,568 - INFO -  Transferência realizada com sucesso .  R$ 2.0 para <__main__.ContaBancaria object at 0x000001C416B1E210>
+2023-07-03 09:32:51,977 - INFO - Iniciando com vini e 23.0
+2023-07-03 09:32:52,038 - INFO - Iniciando com vini e 23.0
+2023-07-03 09:32:53,017 - INFO - Saldo insuficiente: 23.0
+2023-07-03 09:32:54,625 - INFO - Saldo depositado 23.0
+2023-07-03 09:32:56,313 - INFO - Saldo depositado 1.0
+2023-07-03 09:32:56,313 - INFO -  Transferência realizada com sucesso .  R$ 1.0 para <__main__.ContaBancaria object at 0x000001DD710A4D90>
+2023-07-03 09:33:26,834 - INFO - Iniciando com vini e 1200.0
+2023-07-03 09:33:26,834 - INFO - Iniciando com vini e 1200.0
+2023-07-03 09:33:28,225 - INFO - Saldo sacado 1188.0
+2023-07-03 09:33:30,777 - INFO - Saldo depositado 1200.0
+2023-07-03 09:33:32,128 - INFO - Saldo depositado 1.0
+2023-07-03 09:33:32,129 - INFO -  Transferência realizada com sucesso .  R$ 1.0 para <__main__.ContaBancaria object at 0x000001B1A6C24D90>
