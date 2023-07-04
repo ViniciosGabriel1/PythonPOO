@@ -9,7 +9,7 @@ class Produto:
     @classmethod
     def adicionar_produto(cls, produto):
         cls.produtos.append(produto)
-
+        
     @classmethod
     def valor_total_estoque(cls):
         return sum(produto.quantidade * produto.preco_unitario for produto in cls.produtos)
