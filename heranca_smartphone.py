@@ -75,7 +75,7 @@ else:
                 print("===================================") 
 
 
-        elif escolha_so == 2:
+        else:
                 modelo =str(input("Qual o modelo : "))
                 valor = float(input("Qual o valor : "))
                 memoria_ram = float(input("Quantos giga de ram  : "))
@@ -89,9 +89,7 @@ else:
                 print("===================================")
                 smart_phone2.exibir_especificacoes()
                 print("===================================") 
-
-        else:
-                print("Opção inválida !!")                
+               
 
 
 
