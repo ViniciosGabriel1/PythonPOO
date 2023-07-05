@@ -16,7 +16,6 @@ class Sansumg(SmartPhone):
     
     def __init__(self,modelo,valor,memoria_ram,mega_pixels) :
             super().__init__(modelo,valor, memoria_ram,mega_pixels)
-        
 
     def Ligar(self):
          print(f"{self.modelo}, Ligando")
@@ -32,7 +31,6 @@ class Sansumg(SmartPhone):
          print(f"Memória ram : {self.memoria_ram} GB")
          print(f"Mega pixels : {self.mega_pixels} ")
          logging.info(f"Exibindo especificações : {self.modelo} , $ {self.valor} REAIS , {self.memoria_ram} GB, {self.mega_pixels} MEGA PIXELS")
-
 
 class Iphone(SmartPhone):
     
@@ -54,7 +52,6 @@ class Iphone(SmartPhone):
          print(f"Mega pixels : {self.mega_pixels} ")
          logging.info(f"Exibindo especificações : {self.modelo} , $ {self.valor} REAIS , {self.memoria_ram} GB, {self.mega_pixels} MEGA PIXELS")  
 
-
 escolha_so =int(input("[1] para Samsung e [2] para Iphone : ")) 
 while escolha_so < 1 or escolha_so > 2:
       escolha_so =int(input("Opção inválida ! , tente -> [1] para Samsung e [2] para Iphone : ")) 
@@ -74,7 +71,6 @@ else:
                 smart_phone1.exibir_especificacoes()
                 print("===================================") 
 
-
         else:
                 modelo =str(input("Qual o modelo : "))
                 valor = float(input("Qual o valor : "))
@@ -89,11 +85,3 @@ else:
                 print("===================================")
                 smart_phone2.exibir_especificacoes()
                 print("===================================") 
-               
-
-
-
-
-
-
-
