@@ -15,15 +15,15 @@ class Voador:
 
 class Peixe(Animal, Nadador):
     def __init__(self, nome):
-        self.nome = nome
+        super().__init__(nome)
 
 class Ave(Animal, Voador):
     def __init__(self, nome):
-        self.nome = nome
+        super().__init__(nome)
 
 class Pato(Ave, Nadador):
     def __init__(self, nome):
-        self.nome = nome
+        super().__init__(nome)
 
 peixe = Peixe("Nemo")
 peixe.comer()

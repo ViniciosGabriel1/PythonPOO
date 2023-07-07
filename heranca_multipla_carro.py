@@ -29,14 +29,17 @@ class Bugatti(Carro,Cor_carro):
         self.cor = cor
 
 
-modelo =str(input("Qual o modelo ? "))
-cor = str(input("Qual a cor ? "))        
+modelo =str(input("Qual o modelo da BMW? "))
+cor = str(input("Qual a cor para a BMW? "))        
 
 bmw = Bmw(modelo,cor)
 bmw.acelerar()
 bmw.freiar()
 bmw.desligar()
 bmw.selecionar_cor()
+
+modelo =str(input("Qual o modelo do bugatti ? "))
+cor = str(input("Qual a cor para bugatti ? "))  
 
 bugatti = Bugatti("VEYRON " , "Verde")
 bugatti.acelerar()
