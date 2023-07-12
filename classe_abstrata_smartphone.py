@@ -31,10 +31,10 @@ class Sansumg(Smartphone):
 sansumg = Sansumg("Galaxy S22 Ultra")
 iphone = Iphone("8 Plus")
 
-
+print(iphone.modelo)
 print(iphone.ligar())
 print(iphone.desligar())
 print("-=================-")
-
+print(sansumg.modelo)
 print(sansumg.ligar())
 print(sansumg.desligar())
